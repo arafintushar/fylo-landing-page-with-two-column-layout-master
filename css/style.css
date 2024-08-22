@@ -191,17 +191,16 @@ input[type="email"] {
   place-items: center;
 }
 
-.even-clm > .left {
-  grid-column: left;
-}
-
-.even-clm > .right {
-  grid-column: right;
-}
-
 @media (min-width: 600px) {
   .even-clm {
     grid-template-columns: 1fr 1fr;
+  }
+  .even-clm > .left {
+    grid-column: left;
+  }
+
+  .even-clm > .right {
+    grid-column: right;
   }
   .even-clm .right {
     grid-column: 2/3;
