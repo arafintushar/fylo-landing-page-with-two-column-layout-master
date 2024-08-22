@@ -189,6 +189,7 @@ input[type="email"] {
   display: grid;
   gap: 45px;
   place-items: center;
+  grid-template-columns: 1fr;
 }
 
 @media (min-width: 600px) {
